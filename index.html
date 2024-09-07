@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snap</title>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- js script -->
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="navbar--left">
+            <img src="img/logo.svg" alt="logo" class="logo">
+
+            <ul class="navbar--links" id="links">
+                <img src="img/icon-close-menu.svg" alt="close menu" class="close--btn" id="closeBtn">
+                <li>
+                    <a href="#" class="drop-down">
+                        <span>Features</span> 
+                        <img src="img/icon-arrow-down.svg" alt="arrow down icon" class="arrow-down">
+                        <img src="img/icon-arrow-up.svg" alt="arrow up icon" class="arrow-up">
+                    </a>
+
+                    <ul class="drop-links" id="drop-link-1">
+                        <li><a href="#"><img src="img/icon-todo.svg" alt="todo icon"> <span>Todo List</span></a></li>
+                        <li><a href="#"><img src="img/icon-calendar.svg" alt="calendar icon"> <span>Calendar</span></a></li>
+                        <li><a href="#"><img src="img/icon-reminders.svg" alt="reminders icon"> <span>Reminders</span></a></li>
+                        <li><a href="#"><img src="img/icon-planning.svg" alt="planning icon"> <span>Planning</span></a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#" class="drop-down-2">
+                        <span>Company</span> 
+                        <img src="img/icon-arrow-down.svg" alt="arrow down icon" class="arrow-down">
+                        <img src="img/icon-arrow-up.svg" alt="arrow up icon" class="arrow-up">
+                    </a>
+
+                    <ul class="drop-link-2" id="drop-link-2">
+                        <li><a href="#">Histroy</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#">Careers</a>
+                </li>
+
+                <li>
+                    <a href="#">About</a>
+                </li>
+
+                <div class="cta">
+                    <a href="#" class="cta--nbg">Login</a>
+                    <a href="#" class="cta--bg">Register</a>
+                </div>
+            </ul>
+        </div>
+
+        <div class="navbar--right">
+            <a href="#" class="cta--nbg">Login</a>
+            <a href="#" class="cta--bg">Register</a>
+        </div>
+
+        <!-- menu--btn -->
+        <img src="img/icon-menu.svg" alt="menu icon" class="menu--btn" id="menuBtn">
+    </nav>
+
+
+    <!-- home section -->
+    <section class="home--section">
+        <div class="main--left">
+            <h1>Make <br> remote work</h1>
+            <p>
+                Get your team in sync. No matter your location
+                streamline processes. Create team rituals, and 
+                watch productivity soar.
+            </p>
+            <a href="#" class="cta--bg --bg">Learn more</a>
+
+            <div class="sponsor--list">
+                <img src="img/client-databiz.svg" alt="">
+                <img src="img/client-audiophile.svg" alt="">
+                <img src="img/client-meet.svg" alt="">
+                <img src="img/client-maker.svg" alt="">
+            </div>
+        </div>
+        <div class="main--right">
+            <img src="img/image-hero-desktop.png" alt="" class="desktop-hero">
+            <img src="img/image-hero-mobile.png" alt="" class="mobile-hero">
+        </div>
+    </section>
+
+</body>
+</html>
